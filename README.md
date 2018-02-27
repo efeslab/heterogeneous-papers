@@ -2,7 +2,6 @@
 1. [A Full GPU Virtualization Solution with Mediated Pass-Through](https://enigma.usenix.org/sites/default/files/atc14_full_proceedings_interior.pdf#page=129)
 2. [Live Migration with Pass-through Device for Linux VM](http://net.pku.edu.cn/vc/read/VM_OLS08.pdf)
 3. [rCUDA: Reducing the number of GPU-based accelerators in high performance clusters](http://ieeexplore.ieee.org/abstract/document/5547126)
-4. [HPVM: Heterogeneous Parallel Virtual Machine](http://rsim.cs.illinois.edu/Pubs/17-PPOPP-HPVM.pdf)
 
 ## Machine Learning
 1. [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://arxiv.org/pdf/1603.04467.pdf)
@@ -16,6 +15,7 @@
 2. [GPUnet: Networking Abstractions for GPU Programs](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-kim.pdf)
 3. [Catalyst: GPU-assisted rapid memory deduplication in virtualization environments](https://dl.acm.org/citation.cfm?id=3050760)
 4. [Open JDK Meets Xeon Phi: A Comprehensive Study of Java HPC on Intel Many-Core Architecture](http://ieeexplore.ieee.org/abstract/document/7349907/)
+5. [HPVM: Heterogeneous Parallel Virtual Machine](http://rsim.cs.illinois.edu/Pubs/17-PPOPP-HPVM.pdf)
 
 ## Interconnection
 1. [SPIN: Seamless Operating System Integration of Peer-to-Peer DMA Between SSDs and GPUs](https://www.usenix.org/system/files/conference/atc17/atc17-ma.pdf)

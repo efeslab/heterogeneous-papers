@@ -2,6 +2,7 @@
 1. [A Full GPU Virtualization Solution with Mediated Pass-Through](https://enigma.usenix.org/sites/default/files/atc14_full_proceedings_interior.pdf#page=129)
 2. [Live Migration with Pass-through Device for Linux VM](http://net.pku.edu.cn/vc/read/VM_OLS08.pdf)
 3. [rCUDA: Reducing the number of GPU-based accelerators in high performance clusters](http://ieeexplore.ieee.org/abstract/document/5547126)
+4. [HPVM: Heterogeneous Parallel Virtual Machine](http://rsim.cs.illinois.edu/Pubs/17-PPOPP-HPVM.pdf)
 
 ## Machine Learning
 1. [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://arxiv.org/pdf/1603.04467.pdf)

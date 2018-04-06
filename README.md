@@ -36,6 +36,7 @@ This is a reading list of papers related to heterogeneous system.
 3. [Accelerating Pattern Matching Queries in Hybrid CPU-FPGA Architectures](http://www.davidsidler.ch/files/sigmod17-patternmatching.pdf)
 4. [FPGA-based Data Partitioning](https://dl.acm.org/citation.cfm?id=3035946)
 5. [Centaur: A Framework for Hybrid CPU-FPGA Databases](http://ieeexplore.ieee.org/abstract/document/7966689/)
+6. [Hardware Acceleration of Database Operations](https://ppl.stanford.edu/papers/fpga14-casper.pdf)
 
 
 ## Security

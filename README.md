@@ -31,11 +31,12 @@ This is a reading list of papers related to heterogeneous system.
 1. [GPUfs: integrating a file system with GPUs](https://dl.acm.org/citation.cfm?id=2451169)
 
 ## Database and Data Processing
-1. [Glacier: a query-to-hardware compiler](https://dl.acm.org/citation.cfm?id=1807307)
+1. [Streams on Wires — A Query Compiler for FPGAs](http://www.vldb.org/pvldb/2/vldb09-622.pdf)
 2. [On-the-fly Composition of FPGA-Based SQL Query Accelerators Using a Partially Reconfigurable Module Library](http://ieeexplore.ieee.org/abstract/document/6239790/)
 3. [Accelerating Pattern Matching Queries in Hybrid CPU-FPGA Architectures](http://www.davidsidler.ch/files/sigmod17-patternmatching.pdf)
 4. [FPGA-based Data Partitioning](https://dl.acm.org/citation.cfm?id=3035946)
 5. [Centaur: A Framework for Hybrid CPU-FPGA Databases](http://ieeexplore.ieee.org/abstract/document/7966689/)
+
 
 ## Security
 1. [Trusted Display on Untrusted Commodity Platforms](https://dl.acm.org/citation.cfm?id=2813719)

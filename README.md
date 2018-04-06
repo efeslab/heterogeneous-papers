@@ -1,7 +1,10 @@
+This is a reading list of papers related to heterogeneous system.
+
 ## Virtualization
 1. [A Full GPU Virtualization Solution with Mediated Pass-Through](https://enigma.usenix.org/sites/default/files/atc14_full_proceedings_interior.pdf#page=129)
 2. [Live Migration with Pass-through Device for Linux VM](http://net.pku.edu.cn/vc/read/VM_OLS08.pdf)
 3. [rCUDA: Reducing the number of GPU-based accelerators in high performance clusters](http://ieeexplore.ieee.org/abstract/document/5547126)
+4. [pvFPGA: paravirtualising an FPGA-based hardware accelerator towards general purpose computing](https://dl.acm.org/citation.cfm?id=3100286)
 
 ## Machine Learning
 1. [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://arxiv.org/pdf/1603.04467.pdf)
@@ -27,9 +30,12 @@
 ## File System
 1. [GPUfs: integrating a file system with GPUs](https://dl.acm.org/citation.cfm?id=2451169)
 
-## Database
+## Database and Data Processing
 1. [Glacier: a query-to-hardware compiler](https://dl.acm.org/citation.cfm?id=1807307)
 2. [On-the-fly Composition of FPGA-Based SQL Query Accelerators Using a Partially Reconfigurable Module Library](http://ieeexplore.ieee.org/abstract/document/6239790/)
+3. [Accelerating Pattern Matching Queries in Hybrid CPU-FPGA Architectures](http://www.davidsidler.ch/files/sigmod17-patternmatching.pdf)
+4. [FPGA-based Data Partitioning](https://dl.acm.org/citation.cfm?id=3035946)
+5. [Centaur: A Framework for Hybrid CPU-FPGA Databases](http://ieeexplore.ieee.org/abstract/document/7966689/)
 
 ## Security
 1. [Trusted Display on Untrusted Commodity Platforms](https://dl.acm.org/citation.cfm?id=2813719)

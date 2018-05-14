@@ -26,6 +26,9 @@ This is a reading list of papers related to heterogeneous system.
 
 ## Networking
 1. [A cloud-scale acceleration architecture](http://ieeexplore.ieee.org/abstract/document/7783710/)
+2. [NetCache: Balancing Key-Value Storeswith Fast In-Network Caching](https://dl.acm.org/citation.cfm?id=3132747.3132764)
+3. [NetChain: Scale-Free Sub-RTT Coordination](https://www.cs.jhu.edu/~xinjin/files/NSDI18_NetChain.pdf)
+4. [Eris: Coordination-Free Consistent Transactions Using In-Network Concurrency Control](https://dl.acm.org/citation.cfm?doid=3132747.3132751)
 
 ## File System
 1. [GPUfs: integrating a file system with GPUs](https://dl.acm.org/citation.cfm?id=2451169)
@@ -41,3 +44,8 @@ This is a reading list of papers related to heterogeneous system.
 
 ## Security
 1. [Trusted Display on Untrusted Commodity Platforms](https://dl.acm.org/citation.cfm?id=2813719)
+
+## Operating System Support
+
+1. [Dandelion: a compiler and runtime for heterogeneous systems](https://dl.acm.org/citation.cfm?id=2522715)
+2. [Solros: a data-centric operating system architecture for heterogeneous computing](https://dl.acm.org/citation.cfm?id=3190523)

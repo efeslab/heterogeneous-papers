@@ -50,7 +50,7 @@ This is a reading list of papers related to heterogeneous system.
 
 1. [Dandelion: a compiler and runtime for heterogeneous systems](https://dl.acm.org/citation.cfm?id=2522715)
 2. [Solros: a data-centric operating system architecture for heterogeneous computing](https://dl.acm.org/citation.cfm?id=3190523)
-3. [Devirtualizing Memory in Heterogeneous Systems](http://research.cs.wisc.edu/multifacet/papers/asplos18_dvm.pdf)
+3. [Devirtualizing Memory in Heterogeneous Systems](http://research.cs.wisc.edu/multifacet/papers/asplos18_dvm.pdf) [review](DevirtualizingMemory)
 
 ## Monitoring/Profiling
 

@@ -26,8 +26,8 @@ The Devirtualized Memory (DVM) can be further optimized by "compact page table" 
 
 ### Notable Design Details/Strengths [Up to 2 details/strengths]
 
-- Store available contiguous permissions at a coarse granularity, result in a compact page table structure (smaller page table)
-- Access Validation Cache (AVC). The compact page table enables AVC to cache all level Page Table Entries (PTEs). Thus AVC is more efficient than conventional TLB+PWC (Page Walk Cache).
+- Store available contiguous permissions at a coarse granularity, result in a compact page table structure (smaller page table). The compact page table enables Access Validation Cache (AVC)  to cache all level Page Table Entries (PTEs). Thus AVC is more efficient than conventional TLB+PWC (Page Walk Cache).
+- Preload on Reads, overlap memory access latency and Devirtualized Access Validation (DAV) latency. Will waste a little energy if the page is non-identity mapped.
 
 ### Limitations/Weaknesses [up to 2 weaknesses]
 
@@ -38,10 +38,11 @@ The Devirtualized Memory (DVM) can be further optimized by "compact page table" 
 ### Summary of Key Results [Up to 3 results]
 
 - Even the simplest DVM implementation outperforms conventional VM implementation. Further optimizations give smaller VM overheads.
-- Replace TLB + PWC with AVC significantly decrease the energy consumption. Because AVC is 4-way associative while TLB is fully associative. And AVC cache all level PTEs while PWC excludes L1PTEs (possible no memory access V.S. at least one memory access).
+- Replace TLB + PWC with AVC significantly decrease the energy consumption. Because AVC is 4-way associative while TLB is fully associative. And AVC cache all level PTEs while PWC excludes L1PTEs (possible no memory access V.S. at least one memory access if TLB misses).
 - Authors imply that the risk of memory fragmentation with eager paging is negligible. They run several instances of benchmark to repeatedly allocate small/large chunks of memory with 16/32/64GB of total memory capacity.
 
 ### Open Questions [Where to go from here?]
 
 - Be careful to timing channel attacks when implementing virtual memory, including DVM. This paper only mention such kind of potentional design flaws, no further discussion.
 - The starting point of this work is: conventional VM is useful but too expensive to be implemented in accelerators. Considering all CPU and all kinds of accelerators need VM support to share memory. Why don't we put VM functionality into memory directly instead of seeking affordable VM solution between accelerators and CPU? Just make the system more "heterogeneous".
+- I suspect the 3rd key result summary. They evaluate the risk of fragmentation by continuously allocate memory of variable sizes until identity mapping fails. The higher the percentage of allocated memory is, the lower the risk is. I doubt whether such "percentage" will reflect fragmentation well and whether their "variable sizes allocation" test cases resemble real cases.

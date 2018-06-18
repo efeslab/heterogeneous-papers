@@ -1,0 +1,10 @@
+# Evaluation Methodology Statistic
+
+| Paper                 | year | method                                                       | note                                                         |
+| --------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Devirtualizing Memory | 2018 | **gem5**, run modified linux kernel in the full-system mode.simulate both CPU and Graphicionado | they implement the accelerator with 8 **processing engines**, which isn't a term in gem5 and still remains unknown |
+| SOLROS                | 2018 | run modified linux kernel on Xeon E5-2670 and Xeon Phi PCIe attached co-processors (based on the linux kernel modified and provided by intel) | they extend intel SCIF for concurrent DMA. implement RPC stub at Phi and proxy at host CPU for file system and network services |
+| KPart                 | 2018 | Real testbed: use 1) Intel Broadwell D-1540 CPU, which support Intel CAT way-partitioning 2) applications from SPEC CPU2006 3) take the control of way-partitioning periodically to perform online profiling. Simulator: use microarchitectural execution-driven **zsim** | Don't mention how to do offline profiling (cache miss curves, IPC curves, memory bandwidth curves). |
+| GPUnet                | 2014 | 4 nodes, intel+nvidia+mellanox, half have P2P DMA, only evaluate persistent connections. Microbenchmark: stream latency and bandwidth of CPU-CPU, CPU-GPU, GPU-GPU, with RDMA or bounce buffer. Real applications: matrix product, map reduce, face verification. | authors noticed bandwidth asymmetry between DMA writes from HCA to GPU and DMA reads from GPU. |
+| GPUfs                 | 2013 | Use 4-core Xeon+4 NVIDIA TESLA GPUs + 500GB WDC disk. Entirely implemented in GPU kernel, require almost no CPU node. Microbenchmark: sequential/random file read performance under different page size, matrix-vector product kernel. Real applications: match images among several image databases and text `grep` on a GPU. |                                                              |
+

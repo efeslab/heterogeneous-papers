@@ -1,5 +1,16 @@
 This is a reading list of papers related to heterogeneous system.
 
+## Operating System
+1. [The Multikernel: A new OS architecture for scalable multicore systems](https://dl.acm.org/citation.cfm?id=1629579)
+2. [Helios: Heterogeneous Multiprocessing with Satellite Kernels](https://dl.acm.org/citation.cfm?id=1629597)
+3. [IX: A Protected Dataplane Operating System for High Throughput and Low Latency](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-belay.pdf)
+4. [Arrakis: The Operating System Is the Control Plane](https://dl.acm.org/citation.cfm?id=2812806)
+5. [M3: A Hardware/Operating-System Co-Design to Tame Heterogeneous Manycores](https://dl.acm.org/citation.cfm?id=2872371)
+6. [Popcorn: bridging the programmability gap in heterogeneous-ISA platforms](https://dl.acm.org/citation.cfm?id=2741962)
+7. [LITE Kernel RDMA Support for Datacenter Applications](https://dl.acm.org/citation.cfm?id=3132762)
+8. [Solros: a data-centric operating system architecture for heterogeneous computing](https://dl.acm.org/citation.cfm?id=3190523)
+
+
 ## Virtualization
 1. [A Full GPU Virtualization Solution with Mediated Pass-Through](https://enigma.usenix.org/sites/default/files/atc14_full_proceedings_interior.pdf#page=129)
 2. [Live Migration with Pass-through Device for Linux VM](http://net.pku.edu.cn/vc/read/VM_OLS08.pdf)
